@@ -1,0 +1,37 @@
+name: grandline
+description: "GrandLine - Multi Comic Reader App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cached_network_image: ^3.3.0
+  path_provider: ^2.1.1
+  dio: ^5.3.3
+  shared_preferences: ^2.2.2
+  image_picker: ^0.8.7+5
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1 # pastikan versi terbaru
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png" # ganti sesuai lokasi file kamu
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/logo.png
